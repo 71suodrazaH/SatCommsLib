@@ -8,6 +8,9 @@
 #define MSG_TYPE_DATA    0x01   // Regular data message
 #define MSG_TYPE_ACK     0x02   // Acknowledgment 
 #define MSG_TYPE_NACK    0x03   // Negative acknowledgment
+#define MSG_TYPE_PING    0x04   // Ping message
+#define MSG_TYPE_ERROR   0x05   // Error message
+#define MSG_TYPE_RESPONSE 0x06 // Response message
 
 // Common payload size
 #define PAYLOAD_SIZE 60
